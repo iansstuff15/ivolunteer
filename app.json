@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.the07thbam.ivolunteer"
     },
     "web": {
       "favicon": "./assets/favicon.png"

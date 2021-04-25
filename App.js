@@ -2,12 +2,23 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import {SafeArea} from './utils/safe-area.component'
+
+
+
+
+import {Navigation}from './infrastructure/navigation-index'
+
+import {TabNavigator} from './infrastructure/tab-navigation'
+
+
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeArea >
+      <StatusBar style="auto" /> 
+      <TabNavigator/>
+      
+    </SafeArea>
   );
 }
 
